@@ -88,6 +88,7 @@ const Catalog = () => {
           domNode.attribs.class === "equipment-logos" ||
           domNode.attribs.class === "implementation-cycle" ||
           domNode.attribs.class === "projects" ||
+          domNode.attribs.class === "about-us" ||
           domNode.attribs.class === "partners-icons-wrapper")
       ) {
         return <></>;

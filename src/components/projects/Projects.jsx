@@ -93,6 +93,7 @@ const Projects = () => {
           domNode.attribs.class === "equipment-logos" ||
           domNode.attribs.class === "implementation-cycle" ||
           domNode.attribs.class === "catalog" ||
+          domNode.attribs.class === "about-us" ||
           domNode.attribs.class === "partners-icons-wrapper")
       ) {
         return <></>;
